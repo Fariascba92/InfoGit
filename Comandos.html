@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comando de Git</title>
+</head>
+<body>
+     <!-- NavBar -->
+     <header>
+        <ul>
+            <li> <a href="./Index.html">Home</a></li>
+            <li> <a href="./Comandos.html">Comandos</a></li>
+        </ul>
+    </header>
+
+    <div>
+        <ul>
+            <li>
+                <b> git init </b>
+                <ul>
+                    <li> Inicia un rnuevo repositorio de Git en el directorio actual.</li>
+                    <li> Crea una carperta oculta llamda ".git" que almacena todos los datos y metadatos del repositorio.</li>
+                </ul>
+            </li>
+            <li>
+                <b> git clone [URL]</b>
+                <ul>
+                    <li> Clona un repositorio de git existente desde una URL remota a tu sistema local.</li>
+                    <li> Descarga una copia completa del repositorio, incluyendo todos los archivos y la historia de los cambios.</li>
+                </ul>
+            </li>
+            <li>
+                <b> git add [archivo/s] </b>
+                <ul>
+                    <li> Agrega archivos al area de preparación.</li>
+                    <li> Puedes especificar archivos individuales o usar "." para agregar todos de una sola vez.</li>
+                </ul>
+            </li>
+            <li>
+                <b>git commit -m "[Mensaje]"</b>
+                <ul>
+                    <li>Crea un nuevo Commit con los archivos en el area de preparación.</li>
+                    <li>El mensaje es una descripción breve que explica los cambios realizados.</li>
+                </ul>
+            </li>
+            <li>
+                <b>git status</b>
+                <ul>
+                    <li> Muestra el estado actual de los archivos en el repositorio.</li>
+                    <li> te informa sobre los archivos modificados, los archivos en el area de preparación y otros detalles relevantes.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Ejemplo de clonar un repo en nuestro escritorio con una consola</h4>
+
+        <pre>
+            <code>
+                cd desktop
+                git clone https://github.com/Fariascba92/AW1.git
+                cd AW1
+            </code>
+        </pre>
+        
+
+    </div>
+</body>
+</html>
